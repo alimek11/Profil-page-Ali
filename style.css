@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Write some CSS below : */
+body{
+    background-color: #667761;
+    color: white;
+    font-family: 'Lato Light', sans-serif; 
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 38px;
+    font-family: 'Roboto';
+}
+
+h2{
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Roboto'; 
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height: 100px;
+}
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+#leaf{
+    border-radius: 0 15% 0 15%;
+}
+#intro{
+    margin-bottom: 40px;
+}
+
+
+.btn-white{
+    background-color:  rgb(190, 197, 173); 
+    color: #545E56; 
+    border-radius: 5px;
+    padding: 10px 15px; 
+    font-family: 'lato'; 
+    text-decoration: none;
+}
+.btn-white:hover{
+    background-color: whitesmoke
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+}
+.card-green {
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(190, 197, 173, 0.5); 
+    line-height : 1.5;
+    background-color: #545E56;
+    padding: 50px 30px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+.card-green2 {
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(190, 197, 173, 0.5); 
+    line-height : 1.5;
+    background-color: #545E56;
+    padding: 50px 30px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+
+.card-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.card-logos div{
+    text-align: center;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+.list-inline li {
+    display: inline;
+  }
+
+  .list-inline i {
+    font-size: 50px;
+    color: white;
+    letter-spacing: 30px;
+  }
+
+  .list-inline i:hover {
+    color: #545E56;
+  }
+.list-inline {
+    margin-bottom: 30px;
+  }    
+  .cards-inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 50px;
+  }
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
